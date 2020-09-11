@@ -5,6 +5,7 @@ pipeline {
       steps {
         sh '''echo \'Hello world!\' 
 '''
+        echo 'Hello Again World'
       }
     }
 
