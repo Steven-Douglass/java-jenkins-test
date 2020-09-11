@@ -3,8 +3,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Hello from the Build Stage'
-        sh 'ls'
+        sh '''echo "Hello from the Build Stage"
+ls
+echo "ls command has been entered"'''
       }
     }
 
