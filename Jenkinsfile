@@ -4,8 +4,8 @@ pipeline {
     stage('Build') {
       steps {
         sh '''echo "Hello from the Build Stage";
-ls;
-echo "ls command has been entered";'''
+java compileTest.java;
+javac compileTest.java;'''
       }
     }
 
