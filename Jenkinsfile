@@ -3,9 +3,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''echo "Hello from the Build Stage"
-ls
-echo "ls command has been entered"'''
+        sh '''echo "Hello from the Build Stage";
+ls;
+echo "ls command has been entered";'''
       }
     }
 
